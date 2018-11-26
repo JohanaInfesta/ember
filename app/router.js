@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('contact');
   this.route('search-results');
   this.route('search');
+  this.route('personaje', {path:'/personaje/:personaje_id'});
 });
 
 export default Router;

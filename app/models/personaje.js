@@ -7,5 +7,5 @@ export default DS.Model.extend({
   // age: DS.attr('number'),
   image: computed('path','extension', function(){
     return path + '.' + extension;
-  });
+  })
 });
