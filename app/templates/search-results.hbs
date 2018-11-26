@@ -4,5 +4,5 @@ back
 {{/link-to}}
 
 {{#each model.data.results as |search|}}
-{{character-item name=search.name image=(concat search.thumbnail.path "." search.thumbnail.extension) description=search.description}}
+{{character-item name=search.name image=(concat search.thumbnail.path "." search.thumbnail.extension) description=search.description id=search.id}}
 {{/each}}
